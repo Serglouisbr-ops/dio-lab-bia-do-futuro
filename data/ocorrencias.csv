@@ -1,0 +1,3 @@
+id_ocorrencia,tipo,descricao,data,status
+9001,Atraso,Entrega fora do prazo,2025-01-12,Em aberto
+9002,Falta Estoque,Produto indisponivel,2025-01-11,Resolvido
