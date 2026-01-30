@@ -1,0 +1,5 @@
+{
+  "prazo_entrega_maximo_dias": 2,
+  "taxa_atraso_aceitavel": 5,
+  "nivel_servico_minimo": 95
+}
