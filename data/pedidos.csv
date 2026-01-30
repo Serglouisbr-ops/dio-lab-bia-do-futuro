@@ -1,0 +1,4 @@
+id_pedido,data_pedido,cliente,centro_custo,status,prazo_entrega
+1001,2025-01-10,Loja Centro,Suprimentos,Em separacao,2025-01-12
+1002,2025-01-10,Loja Bairro,Operacoes,Despachado,2025-01-11
+1003,2025-01-11,Loja Centro,Suprimentos,Atrasado,2025-01-12
