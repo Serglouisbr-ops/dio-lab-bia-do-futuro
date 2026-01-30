@@ -47,6 +47,16 @@ Utilize os **dados mockados** disponíveis na pasta [`data/`](./data/) para alim
 
 📄 **Template:** [`docs/02-base-conhecimento.md`](./docs/02-base-conhecimento.md)
 
+O Atlas utiliza a base de conhecimento de forma contextualizada. Dados operacionais (pedidos, entregas e estoque) são priorizados para análises proativas, enquanto dados cadastrais (fornecedores e colaboradores) são utilizados para direcionar alertas, sugerir ações e apoiar decisões administrativas.
+
+Os dados da base são atualizados de forma simulada, representando eventos do dia a dia operacional, como criação de pedidos, atualização de status de entregas e movimentação de estoque.
+
+🔹**Regras de confiança da base:**
+O Atlas considera como fonte confiável apenas os dados presentes na pasta data/. Caso não existam informações suficientes para uma análise ou recomendação, o agente assume explicitamente a limitação e sugere ações alternativas.
+
+🔹**Exemplo de uso da base:**
+Ao identificar itens abaixo do estoque mínimo em estoque.csv, o Atlas cruza os dados com fornecedores.json para sugerir o fornecedor mais rápido disponível.
+
 ---
 
 ### 3. Prompts do Agente
