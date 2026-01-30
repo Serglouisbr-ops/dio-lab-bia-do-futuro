@@ -1,0 +1,4 @@
+id_entrega,id_pedido,transportadora,status_entrega,data_prevista,data_real
+5001,1001,Rápido Express,Em rota,2025-01-12,
+5002,1002,LogMais,Entregue,2025-01-11,2025-01-11
+5003,1003,Rápido Express,Em atraso,2025-01-12,
