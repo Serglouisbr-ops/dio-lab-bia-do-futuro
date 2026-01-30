@@ -1,0 +1,16 @@
+[
+  {
+    "id_fornecedor": 1,
+    "nome": "PapelBom Ltda",
+    "tipo": "material_escritorio",
+    "prazo_medio_entrega": 3,
+    "avaliacao": 4.5
+  },
+  {
+    "id_fornecedor": 2,
+    "nome": "PrintSup",
+    "tipo": "suprimentos",
+    "prazo_medio_entrega": 7,
+    "avaliacao": 3.2
+  }
+]
