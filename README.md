@@ -33,14 +33,17 @@ Defina **o que** seu agente faz e **como** ele funciona:
 
 Utilize os **dados mockados** disponíveis na pasta [`data/`](./data/) para alimentar seu agente:
 
-| Arquivo | Formato | Descrição |
-|---------|---------|-----------|
-| `transacoes.csv` | CSV | Histórico de transações do cliente |
-| `historico_atendimento.csv` | CSV | Histórico de atendimentos anteriores |
-| `perfil_investidor.json` | JSON | Perfil e preferências do cliente |
-| `produtos_financeiros.json` | JSON | Produtos e serviços disponíveis |
+| Arquivo                    | Formato | Descrição                                                                               |
+| -------------------------- | ------- | --------------------------------------------------------------------------------------- |
+| `pedidos.csv`              | CSV     | Histórico de pedidos internos e/ou de clientes, com status, centro de custo e prazos    |
+| `entregas.csv`             | CSV     | Informações logísticas das entregas, incluindo transportadora, status e datas previstas |
+| `estoque.csv`              | CSV     | Controle de estoque com níveis atuais, estoque mínimo e localização                     |
+| `fornecedores.json`        | JSON    | Cadastro de fornecedores, prazos médios de entrega e avaliação de desempenho            |
+| `colaboradores.json`       | JSON    | Dados básicos de colaboradores e setores para contextualização das ações                |
+| `ocorrencias.csv`          | CSV     | Registro de ocorrências operacionais (atrasos, falta de estoque, falhas de processo)    |
+| `indicadores_sla.json`     | JSON    | Parâmetros de SLA e níveis mínimos de serviço para validações automáticas               |
+| `historico_interacoes.csv` | CSV     | Histórico de interações dos usuários com o Atlas para aprendizado e melhoria contínua   |
 
-Você pode adaptar ou expandir esses dados conforme seu caso de uso.
 
 📄 **Template:** [`docs/02-base-conhecimento.md`](./docs/02-base-conhecimento.md)
 
