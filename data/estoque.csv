@@ -1,0 +1,4 @@
+id_item,descricao,quantidade_atual,estoque_minimo,local
+A001,Papel A4,120,100,Almoxarifado
+A002,Toner Impressora,5,10,Almoxarifado
+A003,Caixa Papelão,300,150,CD Central
